@@ -730,6 +730,8 @@ progress {
 
 .container,
 .container-fluid,
+.container-4xl,
+.container-3xl,
 .container-xxl,
 .container-xl,
 .container-lg,
@@ -769,6 +771,14 @@ progress {
     max-width: 1320px;
   }
 }
+.container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+  max-width: 1520px;
+}
+
+.container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+  max-width: 1720px;
+}
+
 :root {
   --bs-breakpoint-xs: 0;
   --bs-breakpoint-sm: 576px;
@@ -4000,7 +4010,9 @@ textarea.form-control-lg {
 .navbar > .container-md,
 .navbar > .container-lg,
 .navbar > .container-xl,
-.navbar > .container-xxl {
+.navbar > .container-xxl,
+.navbar > .container-3xl,
+.navbar > .container-4xl {
   display: flex;
   flex-wrap: inherit;
   align-items: center;

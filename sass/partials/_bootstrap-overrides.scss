@@ -47,6 +47,11 @@ $theme-colors-custom: (
 );
 $theme-colors: map-merge($theme-colors, $theme-colors-custom);
 
+$container-max-widths-custom: (
+  3xl: 1520px,
+  4xl: 1720px,
+);
+$container-max-widths: map-merge($container-max-widths, $container-max-widths-custom);
 // 5. Include remainder of required parts
 @import "../../bootstrap/scss/maps";
 @import "../../bootstrap/scss/mixins";
