@@ -3307,7 +3307,7 @@ textarea.form-control-lg {
   --bs-gradient: none;
 }
 
-.btn-outline-epicode-2 {
+.btn-outline-epicode-2, #welcome-summer button, #week-deal button {
   --bs-btn-color: #8625a5;
   --bs-btn-border-color: #8625a5;
   --bs-btn-hover-color: #fff;
@@ -12170,21 +12170,13 @@ textarea.form-control-lg {
 }
 
 h1, .h1 {
-  color: --bs-epicode-1;
+  color: var(--bs-epicode-1);
 }
 
-.container > div:nth-of-type(1) > p:nth-of-type(2) {
-  color: #cb2376;
+#hero-text {
+  color: var(--bs-epicode-3);
 }
 
 .container > div:nth-of-type(1) > a {
-  color: --bs-epicode-1;
-}
-
-#week-deal button {
-  outline-color: #8625a5;
-}
-
-#welcome-summer button {
-  outline-color: #8625a5;
+  background-color: var(--bs-epicode-2);
 }/*# sourceMappingURL=style.css.map */
